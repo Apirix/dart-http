@@ -20,7 +20,6 @@ if (project.hasProperty('dart-defines')) {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
 
 android {
     // Conditional for compatibility with AGP <4.2.
